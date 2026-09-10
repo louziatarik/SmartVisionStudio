@@ -14,7 +14,7 @@ The project combines \*\*computer vision, real-time monitoring, data visualizati
 
 
 
-It was developed as part of an AI Visual Perception laboratory project and extended into a more complete portfolio project focused on practical AI and IoT concepts.
+It was developed from an AI Visual Perception laboratory exercise and extended into a practical portfolio project focused on computer vision, user interfaces, and smart-environment concepts.
 
 
 
@@ -38,7 +38,7 @@ The dashboard provides a real-time overview of camera activity, detected faces, 
 
 
 
-\## ✨ Features
+\## ✨ Key Features
 
 
 
@@ -114,7 +114,7 @@ The dashboard provides a real-time overview of camera activity, detected faces, 
 
 
 
-\* Dark modern interface
+\* Modern dark interface
 
 \* Real-time status indicators
 
@@ -134,7 +134,7 @@ The dashboard provides a real-time overview of camera activity, detected faces, 
 
 
 
-\## 🧠 How the Computer Vision Works
+\## 🧠 How Computer Vision Works
 
 
 
@@ -142,7 +142,7 @@ Smart Vision Studio uses \*\*OpenCV\*\* together with a pre-trained \*\*Haar Cas
 
 
 
-The basic detection pipeline is:
+The detection pipeline is:
 
 
 
@@ -186,7 +186,7 @@ For each webcam frame, the system:
 
 
 
-1\. Captures the image from the webcam.
+1\. Captures an image from the webcam.
 
 2\. Converts the frame to grayscale.
 
@@ -198,13 +198,13 @@ For each webcam frame, the system:
 
 6\. Draws bounding boxes around detected faces.
 
-7\. Updates the dashboard statistics.
+7\. Updates dashboard statistics.
 
 8\. Records relevant vision events.
 
 
 
-> \*\*Note:\*\* The current implementation uses a classical pre-trained Haar Cascade detector. It is designed primarily for frontal face detection and is not a deep-learning face recognition system.
+> \*\*Technical note:\*\* The current implementation uses a classical pre-trained Haar Cascade detector. It is primarily designed for frontal face detection and is not a deep-learning face recognition system.
 
 
 
@@ -216,7 +216,7 @@ For each webcam frame, the system:
 
 
 
-The project demonstrates how computer vision could interact with a smart environment.
+The project demonstrates how computer vision can be connected to a smart environment.
 
 
 
@@ -324,7 +324,7 @@ SmartVisionStudio/
 
 
 
-Runtime-generated files such as screenshots, session history, and vision event logs are excluded from version control.
+Runtime-generated files such as detection logs, session history, vision events, and generated captures are excluded from version control.
 
 
 
@@ -348,7 +348,7 @@ git clone https://github.com/louziatarik/SmartVisionStudio.git
 
 
 
-\### 2. Open the project
+\### 2. Open the project directory
 
 
 
@@ -360,7 +360,7 @@ cd SmartVisionStudio
 
 
 
-\### 3. Install the required Python packages
+\### 3. Install the required packages
 
 
 
@@ -428,7 +428,7 @@ detection\_log.txt
 
 
 
-These files contain information such as:
+These files can contain information such as:
 
 
 
@@ -444,7 +444,7 @@ These files contain information such as:
 
 
 
-They are intentionally excluded from GitHub because they are generated during local application use.
+Runtime data is intentionally excluded from GitHub to keep the repository clean and avoid committing personal or generated data.
 
 
 
@@ -550,9 +550,7 @@ Dalian Polytechnic University
 
 
 
-GitHub:
-
-https://github.com/louziatarik
+GitHub: \[github.com/louziatarik](https://github.com/louziatarik)
 
 
 
@@ -561,10 +559,6 @@ https://github.com/louziatarik
 
 
 \## ⭐ Project
-
-
-
-If you find this project interesting, feel free to explore the code and follow its development.
 
 
 
